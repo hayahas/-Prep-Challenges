@@ -40,6 +40,7 @@ const LastWord = (str) => {
 //  Input: "you dare use my spells against me, potter"
 //  Output: "potter"
 
+
 const LastWord_2 = (str) => {
     // write your code here
     let str1=str.split(" ")
@@ -65,6 +66,7 @@ const LastWord_2 = (str) => {
 // Input: "I am Venom"
 // Output: "We are Venom"
 //
+
 
 const replaceWords = (str) => {
     // write your code here
