@@ -3,18 +3,16 @@
         {
             "language": "typescript",
             "source": [
-                "\nconst detectFace = (arr) => {\n    //write your code here ...\n   let arr1=[];\n   for(let i=0;i<=arr.length;i++){\n    let x=arr[i]\n      for(let j=0;j<=x.length;j++){\n        if(x.charAt(j) == `^`) arr1.push(x);\n      }\n     }\n     return arr1;\n\n}\n\ndetectFace([\"hello ^_^ \",\"Hi ^_^\" ,\"What's up ^_-\" ,\"lol\"])"
+                "\nconst wordLength = (str1,str2) => {\n  // write your code here\n  let arr1 = str1.split('');\n  let arr2 = str2.split('');\n  return arr1 + \" \" + arr2;\n}\n\nwordLength(\"dad\",\"add\");"
             ],
             "outputs": [
                 {
                     "items": [
                         {
-                            "mime": "application/vnd.code.notebook.error",
-                            "value": {
-                                "name": "TypeError",
-                                "message": "Cannot read properties of undefined (reading 'length')",
-                                "stack": "    at detectFace (<Cell 1> [7, 10])\n    at <Cell 1> [15, 10]\n    at <Cell 1> [15, 46]\n    at Script.runInContext (node:vm:141:12)\n    at Script.runInNewContext (node:vm:146:17)\n    at Object.runInNewContext (node:vm:300:38)\n    at C (/home/hayahass/.vscode-server/extensions/donjayamanne.typescript-notebook-2.0.6/out/extension/server/index.js:2:113345)\n    at t.execCode (/home/hayahass/.vscode-server/extensions/donjayamanne.typescript-notebook-2.0.6/out/extension/server/index.js:2:114312)\n    at k.<anonymous> (/home/hayahass/.vscode-server/extensions/donjayamanne.typescript-notebook-2.0.6/out/extension/server/index.js:2:142156)\n    at k.emit (node:events:513:28)"
-                            }
+                            "mime": "text/plain",
+                            "value": [
+                                "\u001b[32m'd,a,d a,d,d'\u001b[39m"
+                            ]
                         }
                     ]
                 }
